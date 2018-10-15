@@ -1,0 +1,27 @@
+Lots of new things to download and use for first time
+
+GIT
+    Downloaded from https://git-scm.com/download/win
+    Updated the EGit Eclipse plugin to 4.6.0
+    
+Gradle
+    Downloaded v4.10.2 binary from https://gradle.org/install/
+        Did not put on path (will do iff nec.)
+    Installed Eclipse plugin "Buildship Gradle Integration 2.0"
+    
+Spring Boot
+    Used Spring Initializr (https://start.spring.io/) to create project
+        Imported to Eclipse as Gradle project
+    Changed port to 80 in application.properties ("a.p")
+        Seems to work
+        Used stackoverflow to see how to get app to set landing page
+
+Github
+    Wrote some code; would be good to save it.
+    Created account.
+    
+GIT
+    Started to commit (locally, it seems).
+    Picked a directory as a repository.
+    Tried "Commit...", wrote comment, clicked Commit button,
+    told "there are no staged files".  What?
