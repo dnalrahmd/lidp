@@ -25,3 +25,28 @@ GIT
     Picked a directory as a repository.
     Tried "Commit...", wrote comment, clicked Commit button,
     told "there are no staged files".  What?
+        Had to move files from "Unstaged Changes" to "Staged Changes".
+
+Github
+    How to get code in there?  Can do from Eclipse?
+    Followed instructions here:
+        https://stackoverflow.com/questions/17552457/how-do-i-upload-eclipse-projects-to-github/17559921
+    Not sure what "origin" meant for the "remote name".
+    I see stuff on github; i guess it's ok?
+    
+Angular
+    Experience from above: maybe i can get an Eclipse plugin w/out installing externally
+    Found Angular IDE.  Tried dragging install icon to Eclipse.  Msg: "not compatible" (i have Mars).
+    OK, install Angular at OS level.
+    Need Angular CLI?  Probably...
+    First need npm and node.js!
+        Went to https://nodejs.org/en/download/ and did 64-bit .msi download
+        node -v: v8.12.0
+        npm -v: 6.4.1
+    Ran: npm install -g @angular/cli
+        Couple warnings but seemed to work
+    Do i need to make a whole new project or can i "angular-ify" my existing lidp project?
+        Will make the test app shown on https://angular.io/guide/quickstart in temp dir
+        my-app has > 3,600 dirs and ~28,000 files!  No way the project needs all this.
+        Ran: ng serve --open
+            This did indeed bring up the app in FF

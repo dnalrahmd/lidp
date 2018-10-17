@@ -14,6 +14,11 @@ public class CircleTest {
     private final long   seed   = System.currentTimeMillis();
     private final Random random = new Random(seed);
 
+    /**
+     * Test the getArea method indirectly by making sure that if
+     * the ratio of two radii is x, then the ratio of the areas
+     * of those circles is x^2.
+     */
     @Test
     public void testRadiusAreaRatio() {
         
@@ -41,7 +46,7 @@ public class CircleTest {
         }
     }
     
-    /* Return a postive, random, radius no larger than max. */
+    /* Return a positive, random, radius no larger than max. */
     private double randomRadius(int max) {
         double r = 0.0;
         
